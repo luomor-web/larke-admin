@@ -32,8 +32,11 @@ class JsonHandler extends ExceptionHandler
                 }
                 
                 if (config('app.debug')) {
-                    $data = [
+                    /*$data = [
                         'exception' => $this->renderException($exception),
+                    ];*/
+                    $data = [
+                        'exception' => $exception->getMessage(),
                     ];
                 } else {
                     $data = '';
@@ -69,7 +72,7 @@ class JsonHandler extends ExceptionHandler
                 'Cookies' => $_COOKIE,
                 'Session' => \Session::all(),
                 'Server/Request Data' => request()->server(),
-                'Environment Variables' => $_ENV,
+                //'Environment Variables' => $_ENV,
             ],
         ];
 
