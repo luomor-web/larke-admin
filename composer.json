@@ -1,5 +1,5 @@
 {
-    "name": "lake/larke-admin",
+    "name": "luomor/larke-admin",
     "description": "An admin api library with JWT and RBAC.",
     "keywords": [
         "laravel",
@@ -8,14 +8,14 @@
         "admin",
         "larke-admin"
     ],
-    "homepage": "https://github.com/deatil/larke-admin",
+    "homepage": "https://github.com/luomor-web/larke-admin",
     "type": "library",
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "deatil",
-            "email": "deatil@github.com",
-            "homepage": "https://github.com/deatil",
+            "name": "Peter Zhang",
+            "email": "zhangchunsheng423@gmail.com",
+            "homepage": "https://github.com/zhangchunsheng",
             "role": "Developer"
         }
     ],
